@@ -28,4 +28,13 @@ function controllaNumero(num) {
         i--; 
     }
 
+    let numeri = [3, 6, 1, 9];
+
+    numeri.push(5);
+
+    numeri.sort((a, b) => a - b);
+
+    console.log("Il primo elemento è: ", numeri[0]);
+    console.log("L'ultimo elemento è: ", numeri[numeri.length - 1]);
+
   
